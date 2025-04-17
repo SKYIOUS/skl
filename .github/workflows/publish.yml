@@ -6,7 +6,7 @@ on:
 jobs:
   publish:
     name: Release build and publish
-    runs-on: kubuntu-24.4
+    runs-on: macos-latest
     steps:
       - name: Check out code
         uses: actions/checkout@v4
