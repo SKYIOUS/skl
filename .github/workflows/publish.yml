@@ -15,6 +15,7 @@ jobs:
         with:
           distribution: 'zulu'
           java-version: 21
+
       - name: Publish to MavenCentral
         run: ./gradlew publishToMavenCentral --no-configuration-cache
         env:
