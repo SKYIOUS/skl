@@ -1,6 +1,4 @@
 # .github/workflows/publish.yml
-run: find . -type f -name gradlew
-
 name: Publish
 on:
   release:
