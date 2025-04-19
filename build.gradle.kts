@@ -38,7 +38,7 @@ mavenPublishing {
         licenses {
             licenses {
                 name = "MIT License"
-                url = "https://mit-license.org/"
+                url = "https://github.com/SKYIOUS/skl/blob/main/LICENSE.md"
 
             }
         }
